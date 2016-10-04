@@ -1,0 +1,38 @@
+#include <algorithm>
+#include <string>
+#include<iostream>
+#include<fstream>
+#include<vector>
+
+using namespace std;
+int main()
+{
+
+		string line, level, tag;
+		ifstream inputfile;
+		vector<string> v = { "INDI","NAME" ,"SEX","BIRT","DEAT","FAMC","FAMS","FAM","MARR","HUSB","WIFE","CHIL","DIV","DATE","HEAD","TRLR", "NOTE" };
+	 
+		inputfile.open("My-Family-12-Sep-2016-280.ged");
+		if (inputfile.fail()) {
+			cout << "The ged file does not exist" << endl;
+			return 1;
+		}
+		while (!inputfile.eof())
+		{
+			inputfile >> level;
+			inputfile >> tag;
+			getline(inputfile, line);
+
+			cout << level << " " << tag << line << endl;
+			cout  << level << endl;
+
+			if (find(v.begin(), v.end(), tag) != v.end())
+			{
+				cout << tag << endl;
+			}
+			else {
+				cout << "Invalid tag" << endl;
+			}
+		}
+	return 0;
+}
