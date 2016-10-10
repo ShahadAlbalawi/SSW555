@@ -1,0 +1,152 @@
+Provide GEDCOM file name: projectfamily.ged
+
+---------list of Individuals------------------------
+@I2@: /Smith/Jhon
+@I6@: /Williams/Ruby
+@I33@: /Obama/Martha Obama
+@I45@: /Lannister/Joanna01
+@I13@: /Lyman/MarySara
+@I25@: /Obama/Natasha Obama
+@I37@: /Oba/David Oba
+@I49@: /Lannister/Joanna04
+@I17@: /Lannister/Tywin
+@I29@: /Obama/Hend Obama
+@I41@: /Lannister/Tommen
+@I21@: /Lannister/Jamie
+@I3@: /Palmer/Jessica
+@I7@: /Jones/Jacob
+@I44@: /Lannister/Arya
+@I12@: /Lyman/Fester
+@I24@: /Obama/Malia Obama
+@I36@: /Obama/Caroline Obama
+@I48@: /Lannister/Joanna03
+@I16@: /Lannister/Tyrion
+@I28@: /Obama/Adam Obama
+@I40@: /Baratheon/Joffrey
+@I20@: /Baratheon/Robert
+@I32@: /Obama/Sarah Obama
+@I19@: /Lannister/Cersei
+@I4@: /Lyman/Sara
+@I8@: /Jones/Alice
+@I11@: /Smith/Mike
+@I23@: /Obama/Michelle Obama
+@I35@: /Obama/Henry Obama
+@I47@: /Lannister/Joffrey
+@I15@: /Lyman/Samantha
+@I27@: /Obama/Nawal Obama
+@I39@: /Obama/Alexander Obama
+@I51@: /Lannister/Joanna06
+@I31@: /Obama/James Obama
+@I43@: /Tyrell/Margaery
+@I1@: /Smith/Alex
+@I5@: /Smith/Ethan
+@I9@: /Jhonson/Kyle
+@I22@: /Obama/barack Obama
+@I34@: /Obama/Marry Obama
+@I46@: /Lannister/Joanna02
+@I14@: /Lyman/Sally
+@I26@: /Obama/John Obama
+@I38@: /Obama/Julia Obama
+@I18@: /Lannister/Joanna
+@I50@: /Lannister/Joanna05
+@I30@: /Obama/Adam Obama
+@I42@: /Stark/Sansa
+@I10@: /Johnson/Julia
+
+-----------List of Families----------------------
+ID=@F2@, Husband=id=@I2@, fName=Jhon, lName=/Smith/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null, Wife=id=@I3@, fName=Jessica, lName=/Palmer/, sex=F, birthDate=Fri Oct 07 00:00:00 EDT 1966, deathDate=null, children=[id=@I11@, fName=Mike, lName=/Smith/, sex=M, birthDate=Sun Feb 06 00:00:00 EST 1994, deathDate=null]]
+ID=@F1@, Husband=id=@I2@, fName=Jhon, lName=/Smith/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null, Wife=id=@I4@, fName=Sara, lName=/Lyman/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, children=[id=@I1@, fName=Alex, lName=/Smith/, sex=M, birthDate=Sun Mar 02 00:00:00 EST 1986, deathDate=Thu Mar 24 00:00:00 EDT 2016]]
+ID=@F4@, Husband=id=@I12@, fName=Fester, lName=/Lyman/, sex=M, birthDate=Sun Jan 01 00:00:00 EST 1950, deathDate=null, Wife=id=@I13@, fName=MarySara, lName=/Lyman/, sex=M, birthDate=Mon Jan 02 00:00:00 EST 1950, deathDate=null, children=[id=@I4@, fName=Sara, lName=/Lyman/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, id=@I14@, fName=Sally, lName=/Lyman/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=Tue Jan 03 00:00:00 EST 1978, id=@I15@, fName=Samantha, lName=/Lyman/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null]]
+ID=@F3@, Husband=id=@I6@, fName=Ruby, lName=/Williams/, sex=F, birthDate=Mon Mar 04 00:00:00 EST 1940, deathDate=null, Wife=id=@I5@, fName=Ethan, lName=/Smith/, sex=F, birthDate=Wed Apr 01 00:00:00 EST 1500, deathDate=Sun Jul 09 00:00:00 EDT 1972, children=[id=@I2@, fName=Jhon, lName=/Smith/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null]]
+ID=@F6@, Husband=id=@I9@, fName=Kyle, lName=/Jhonson/, sex=M, birthDate=Tue Apr 03 00:00:00 EST 1973, deathDate=null, Wife=id=@I8@, fName=Alice, lName=/Jones/, sex=F, birthDate=Sat Aug 05 00:00:00 EDT 1978, deathDate=null, children=[id=@I10@, fName=Julia, lName=/Johnson/, sex=F, birthDate=Thu Feb 06 00:00:00 EST 1997, deathDate=null]]
+ID=@F5@, Husband=id=@I6@, fName=Ruby, lName=/Williams/, sex=F, birthDate=Mon Mar 04 00:00:00 EST 1940, deathDate=null, Wife=id=@I7@, fName=Jacob, lName=/Jones/, sex=F, birthDate=Tue Dec 05 00:00:00 EST 1939, deathDate=null, children=[id=@I8@, fName=Alice, lName=/Jones/, sex=F, birthDate=Sat Aug 05 00:00:00 EDT 1978, deathDate=null]]
+ID=@F8@, Husband=id=@I17@, fName=Tywin, lName=/Lannister/, sex=M, birthDate=null, deathDate=null, Wife=id=@I18@, fName=Joanna, lName=/Lannister/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=Sat Jan 01 00:00:00 EST 2005, children=[id=@I16@, fName=Tyrion, lName=/Lannister/, sex=M, birthDate=Sun Jan 02 00:00:00 EST 2005, deathDate=Sun Jan 02 00:00:00 EST 2000, id=@I19@, fName=Cersei, lName=/Lannister/, sex=F, birthDate=Fri Apr 29 00:00:00 EDT 2016, deathDate=null, id=@I21@, fName=Jamie, lName=/Lannister/, sex=M, birthDate=Sat Apr 30 00:00:00 EDT 2016, deathDate=null, id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null]]
+ID=@F7@, Husband=id=@I16@, fName=Tyrion, lName=/Lannister/, sex=M, birthDate=Sun Jan 02 00:00:00 EST 2005, deathDate=Sun Jan 02 00:00:00 EST 2000, Wife=id=@I15@, fName=Samantha, lName=/Lyman/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null, children=[]]
+ID=@F9@, Husband=id=@I20@, fName=Robert, lName=/Baratheon/, sex=M, birthDate=Mon May 02 00:00:00 EDT 1960, deathDate=Thu Jun 09 00:00:00 EDT 2016, Wife=id=@I19@, fName=Cersei, lName=/Lannister/, sex=F, birthDate=Fri Apr 29 00:00:00 EDT 2016, deathDate=null, children=[id=@I40@, fName=Joffrey, lName=/Baratheon/, sex=M, birthDate=Tue Mar 01 00:00:00 EST 2016, deathDate=null]]
+ID=@F11@, Husband=id=@I28@, fName=Adam Obama, lName=/Obama/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, Wife=id=@I27@, fName=Nawal Obama, lName=/Obama/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, children=[]]
+ID=@F10@, Husband=id=@I22@, fName=barack Obama, lName=/Obama/, sex=M, birthDate=Tue May 02 00:00:00 EST 1899, deathDate=Wed Jun 06 00:00:00 EDT 1990, Wife=id=@I23@, fName=Michelle Obama, lName=/Obama/, sex=F, birthDate=Wed May 02 00:00:00 EST 1900, deathDate=Thu Jun 06 00:00:00 EDT 1991, children=[id=@I24@, fName=Malia Obama, lName=/Obama/, sex=F, birthDate=Sat May 02 00:00:00 EDT 1998, deathDate=null, id=@I25@, fName=Natasha Obama, lName=/Obama/, sex=F, birthDate=Mon Mar 26 00:00:00 EST 2001, deathDate=null, id=@I26@, fName=John Obama, lName=/Obama/, sex=M, birthDate=Thu May 02 00:00:00 EDT 2002, deathDate=null, id=@I27@, fName=Nawal Obama, lName=/Obama/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, id=@I28@, fName=Adam Obama, lName=/Obama/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, id=@I29@, fName=Hend Obama, lName=/Obama/, sex=F, birthDate=Fri May 02 00:00:00 EDT 2003, deathDate=null, id=@I30@, fName=Adam Obama, lName=/Obama/, sex=M, birthDate=Tue May 02 00:00:00 EDT 1989, deathDate=null, id=@I31@, fName=James Obama, lName=/Obama/, sex=M, birthDate=Wed May 02 00:00:00 EDT 1990, deathDate=null, id=@I32@, fName=Sarah Obama, lName=/Obama/, sex=F, birthDate=Mon Apr 06 00:00:00 EDT 1992, deathDate=null, id=@I33@, fName=Martha Obama, lName=/Obama/, sex=F, birthDate=Sun May 02 00:00:00 EDT 2010, deathDate=null, id=@I34@, fName=Marry Obama, lName=/Obama/, sex=F, birthDate=Fri Mar 25 00:00:00 EDT 2016, deathDate=null, id=@I35@, fName=Henry Obama, lName=/Obama/, sex=M, birthDate=Mon Mar 28 00:00:00 EDT 2016, deathDate=null, id=@I36@, fName=Caroline Obama, lName=/Obama/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2006, deathDate=null, id=@I37@, fName=David Oba, lName=/Oba/, sex=M, birthDate=Mon May 02 00:00:00 EDT 2005, deathDate=null, id=@I38@, fName=Julia Obama, lName=/Obama/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2000, deathDate=null, id=@I39@, fName=Alexander Obama, lName=/Obama/, sex=M, birthDate=Wed May 02 00:00:00 EDT 2012, deathDate=null]]
+ID=@F13@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I42@, fName=Sansa, lName=/Stark/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I44@, fName=Arya, lName=/Lannister/, sex=F, birthDate=Sat Jan 01 00:00:00 EST 2000, deathDate=null]]
+ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I43@, fName=Margaery, lName=/Tyrell/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I45@, fName=Joanna01, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I46@, fName=Joanna02, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I47@, fName=Joffrey, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 2002, deathDate=null, id=@I48@, fName=Joanna03, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I49@, fName=Joanna04, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I50@, fName=Joanna05, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I51@, fName=Joanna06, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null]]
+---------------List of Living Married-------------
+@I2@:  Jhon/Smith/
+@I3@:  Jessica/Palmer/
+@I4@:  Sara/Lyman/
+@I12@:  Fester/Lyman/
+@I13@:  MarySara/Lyman/
+@I6@:  Ruby/Williams/
+@I9@:  Kyle/Jhonson/
+@I8@:  Alice/Jones/
+@I7@:  Jacob/Jones/
+@I17@:  Tywin/Lannister/
+@I15@:  Samantha/Lyman/
+@I19@:  Cersei/Lannister/
+@I28@:  Adam Obama/Obama/
+@I27@:  Nawal Obama/Obama/
+@I41@:  Tommen/Lannister/
+@I42@:  Sansa/Stark/
+@I43@:  Margaery/Tyrell/
+
+---------------order siblings by age-------------
+
+ children of family :@F2@
+/Smith/Mike date of birth:  February 06, 1994 
+
+ children of family :@F1@
+/Smith/Alex date of birth:  March 02, 1986 
+
+ children of family :@F4@
+/Lyman/Sara date of birth:  June 08, 1964 
+/Lyman/Sally date of birth:  January 01, 1980 
+/Lyman/Samantha date of birth:  January 01, 1987 
+
+ children of family :@F3@
+/Smith/Jhon date of birth:  October 13, 1960 
+
+ children of family :@F6@
+/Johnson/Julia date of birth:  February 06, 1997 
+
+ children of family :@F5@
+/Jones/Alice date of birth:  August 05, 1978 
+
+ children of family :@F8@
+/Lannister/Tommen date of birth:  January 01, 1980 
+/Lannister/Tyrion date of birth:  January 02, 2005 
+/Lannister/Cersei date of birth:  April 29, 2016 
+/Lannister/Jamie date of birth:  April 30, 2016 
+
+ children of family :@F7@
+
+ children of family :@F9@
+/Baratheon/Joffrey date of birth:  March 01, 2016 
+
+ children of family :@F11@
+
+ children of family :@F10@
+/Obama/Adam Obama date of birth:  May 02, 1989 
+/Obama/James Obama date of birth:  May 02, 1990 
+/Obama/Adam Obama date of birth:  May 02, 1991 
+/Obama/Sarah Obama date of birth:  April 06, 1992 
+/Obama/Malia Obama date of birth:  May 02, 1998 
+/Obama/Julia Obama date of birth:  May 02, 2000 
+/Obama/Natasha Obama date of birth:  March 26, 2001 
+/Obama/John Obama date of birth:  May 02, 2002 
+/Obama/Hend Obama date of birth:  May 02, 2003 
+/Oba/David Oba date of birth:  May 02, 2005 
+/Obama/Caroline Obama date of birth:  May 02, 2006 
+/Obama/Martha Obama date of birth:  May 02, 2010 
+/Obama/Alexander Obama date of birth:  May 02, 2012 
+/Obama/Marry Obama date of birth:  March 25, 2016 
+/Obama/Henry Obama date of birth:  March 28, 2016 
+/Obama/Nawal Obama date of birth:  April 06, 2016 
+
+ children of family :@F13@
+/Lannister/Arya date of birth:  January 01, 2000 
+
+ children of family :@F12@
+/Lannister/Joanna01 date of birth:  January 02, 2001 
+/Lannister/Joanna02 date of birth:  January 02, 2001 
+/Lannister/Joanna03 date of birth:  January 02, 2001 
+/Lannister/Joanna04 date of birth:  January 02, 2001 
+/Lannister/Joanna05 date of birth:  January 02, 2001 
+/Lannister/Joanna06 date of birth:  January 02, 2001 
+/Lannister/Joffrey date of birth:  January 01, 2002 
