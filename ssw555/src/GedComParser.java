@@ -155,7 +155,7 @@ public class GedComParser {
 	}*/
 	// US29 Order siblings by age, Owner: Shahad
 	public static void US28OrderSiblingsByAge(Map<String, Family> f) {
-		System.out.println("\n---------------order siblings by age-------------");
+		System.out.println("\n--------------US28-order siblings by age-------------");
 		List<Person> children = new ArrayList<>();
 		for (String key : f.keySet()) {
 			children=f.get(key).getChildren();
@@ -181,7 +181,7 @@ public class GedComParser {
 		public static void US30ListLivingMarried(Map<String, Family> f) {
 			List<String> list = new ArrayList<String>();
 				   String married ;
-			System.out.println("---------------List of Living Married-------------");
+			System.out.println("\n--------------US30-List of Living Married-------------");
 			
 			for (String key : f.keySet()) {
 				if(f.get(key).getHusband().getDeathDate()==null)
