@@ -55,7 +55,7 @@ Provide GEDCOM file name: Projectfamily.ged
 
 -----------List of Families----------------------
 ID=@F2@, Husband=id=@I2@, fName=Jhon, lName=/Targaryen/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null, Wife=id=@I3@, fName=Jessica, lName=/Baelish/, sex=F, birthDate=Fri Oct 07 00:00:00 EDT 1966, deathDate=null, children=[id=@I11@, fName=Mike, lName=/Targaryen/, sex=M, birthDate=Sun Feb 06 00:00:00 EST 1994, deathDate=null]]
-ID=@F1@, Husband=id=@I2@, fName=Jhon, lName=/Targaryen/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null, Wife=id=@I4@, fName=Sara, lName=/Greyjoy/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, children=[id=@I1@, fName=Alex, lName=/Targaryen/, sex=M, birthDate=Sun Mar 02 00:00:00 EST 1986, deathDate=Thu Mar 24 00:00:00 EDT 2016]]
+ID=@F1@, Husband=id=@I2@, fName=Jhon, lName=/Targaryen/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null, Wife=id=@I4@, fName=Sara, lName=/Greyjoy/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, children=[id=@I1@, fName=Alex, lName=/Targaryen/, sex=M, birthDate=Sun Mar 02 00:00:00 EST 1986, deathDate=null]]
 ID=@F4@, Husband=id=@I12@, fName=Fester, lName=/Greyjoy/, sex=M, birthDate=Sun Jan 01 00:00:00 EST 1950, deathDate=null, Wife=id=@I13@, fName=MarySara, lName=/Greyjoy/, sex=M, birthDate=Mon Jan 02 00:00:00 EST 1950, deathDate=null, children=[id=@I4@, fName=Sara, lName=/Greyjoy/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, id=@I14@, fName=Sally, lName=/Greyjoy/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=Tue Jan 03 00:00:00 EST 1978, id=@I15@, fName=Samantha, lName=/Greyjoy/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null]]
 ID=@F3@, Husband=id=@I6@, fName=Ruby, lName=/Williams/, sex=F, birthDate=Mon Mar 04 00:00:00 EST 1940, deathDate=null, Wife=id=@I5@, fName=Ethan, lName=/Targaryen/, sex=F, birthDate=Wed Apr 01 00:00:00 EST 1500, deathDate=Sun Jul 09 00:00:00 EDT 1972, children=[id=@I2@, fName=Jhon, lName=/Targaryen/, sex=M, birthDate=Thu Oct 13 00:00:00 EDT 1960, deathDate=null]]
 ID=@F6@, Husband=id=@I9@, fName=Kyle, lName=/Jhonson/, sex=M, birthDate=Tue Apr 03 00:00:00 EST 1973, deathDate=null, Wife=id=@I8@, fName=Alice, lName=/Mormont/, sex=F, birthDate=Sat Aug 05 00:00:00 EDT 1978, deathDate=null, children=[id=@I10@, fName=Julia, lName=/Johnson/, sex=F, birthDate=Thu Feb 06 00:00:00 EST 1997, deathDate=null]]
@@ -150,4 +150,7 @@ ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tu
 /Lannister/Shahad04 date of birth:  January 02, 2001 
 /Lannister/Shahad05 date of birth:  January 02, 2001 
 /Lannister/Shahad06 date of birth:  January 02, 2001 
-/Lannister/Joffrey date of birth:  January 01, 2002
+/Lannister/Joffrey date of birth:  January 01, 2002 
+
+--------------US31-List of Living single-------------
+/Targaryen/Alex
