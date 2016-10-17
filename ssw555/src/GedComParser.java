@@ -1,6 +1,8 @@
 import java.util.*;
 import java.io.File;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -89,13 +91,15 @@ public class GedComParser {
             if(tagName.equals("SEX")) {
             	p.setSex(lineArr[2]);
             }
-           // if(tagName.equals("FAMC")) {
-          //  	p.setChildOfFamilyId(lineArr[2]);
-         //   }
-            //i got an exception here ???
-          //  if(tagName.equals("FAMS")) {
+            if(tagName.equals("FAMC")) {
+          	p.setChildOfFamilyId(lineArr[2]);
+              }
+            if(tagName.equals("FAMS")) {
+            	ni=new NuptialInfo();
+            	p.addNuptials(ni);
+            	ni.setSpouseOfFamilyId(lineArr[2]);
             
-          //  }
+            }
             //-----------------------------------------------------------
             if(nextDate != null) {
             	SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy");
@@ -107,9 +111,9 @@ public class GedComParser {
             		p.setDeathDate(dt);
             	}
             	if(nextDate.equals("MARR")) {
-            		ni = new NuptialInfo();
+            		//ni = new NuptialInfo();
             		ni.setMarriageDate(dt);
-            		p.addNuptials(ni);
+            		//p.addNuptials(ni);
             	}
             	if(nextDate.equals("DIV")) {
             		ni.setDivorceDate(dt);
@@ -142,6 +146,7 @@ public class GedComParser {
 		//------------------------user stories test ----------------------------//
 		US30ListLivingMarried(familyMap);
 		US28OrderSiblingsByAge(familyMap);
+		 US31ListLivingSingle(personMap); 
 	}
 	
 	/*private static Set<String> getEligibleTags() throws Exception {
@@ -200,5 +205,25 @@ public class GedComParser {
 			}
 			 
 		}
-	
-}
+   // US31 list living Single, Owner: Shahad
+
+		public static void US31ListLivingSingle(Map<String, Person> p) {
+		 
+				   LocalDate today = LocalDate.now();
+				   //LocalDate birthday = LocalDate.of(1960, Month.JANUARY, 1);
+ 
+			System.out.println("\n--------------US31-List of Living single-------------");
+			
+			for (String key : p.keySet()) {
+				if(p.get(key).getBirthDate()!=null)
+				{				 LocalDate birthday = LocalDate.of(p.get(key).getBirthDate().getYear()+1900,p.get(key).getBirthDate().getMonth()+1,p.get(key).getBirthDate().getDate() );
+				Period age = Period.between(birthday,today);
+				if(p.get(key).getNuptials().isEmpty() && age.getYears() >= 30 && p.get(key).getDeathDate()== null )
+				{  
+		
+					System.out.println(p.get(key).getlName()+p.get(key).getfName());}
+				}
+			}
+		}
+			 
+		} 
