@@ -1,0 +1,99 @@
+Provide GEDCOM file name: C:\\Projectfamily.ged
+
+---------list of Individuals------------------------
+@I45@: /Lannister/Shahad01
+@I10@: /Johnson/Julia
+@I12@: /Greyjoy/Fester
+@I8@: /Mormont/Alice
+@I28@: /Stark/Adam Stark
+@I19@: /Lannister/Cersei
+@I6@: /Williams/Ruby
+@I14@: /Greyjoy/Sally
+@I47@: /Lannister/Joffrey
+@I31@: /Stark/James Stark
+@I2@: /Targaryen/Jhon
+@I49@: /Lannister/Shahad04
+@I4@: /Greyjoy/Sara
+@I43@: /Tyrell/Margaery
+@I39@: /Stark/Alexander Stark
+@I51@: /Lannister/Shahad06
+@I37@: /Stark/David Stark
+@I23@: /Stark/Emilia
+@I41@: /Lannister/Tommen
+@I17@: /Lannister/Tywin
+@I33@: /Stark/Martha Stark
+@I27@: /Stark/Nawal Stark
+@I25@: /Stark/Natasha Stark
+@I21@: /Lannister/Jamie
+@I35@: /Stark/Henry Stark
+@I29@: /Stark/Hend Stark
+@I9@: /Jhonson/Kyle
+@I15@: /Greyjoy/Samantha
+@I44@: /Lannister/Arya
+@I13@: /Greyjoy/MarySara
+@I46@: /Lannister/Shahad02
+@I1@: /Targaryen/Alex
+@I7@: /Mormont/Jacob
+@I30@: /Stark/Adam Stark
+@I3@: /Baelish/Jessica
+@I11@: /Targaryen/Mike
+@I5@: /Targaryen/Ethan
+@I48@: /Lannister/Shahad03
+@I36@: /Stark/Caroline Stark
+@I42@: /Stark/Sansa
+@I38@: /Stark/Julia Stark
+@I40@: /Baratheon/Joffrey
+@I32@: /Stark/Sarah Stark
+@I50@: /Lannister/Shahad05
+@I22@: /Stark/	Bran
+@I24@: /Stark/Malia Stark
+@I16@: /Lannister/Tyrion
+@I26@: /Stark/John Stark
+@I20@: /Baratheon/Robert
+@I34@: /Stark/Marry Stark
+@I18@: /Lannister/Shahad
+
+-----------List of Families----------------------
+ID=@F6@, Husband=id=@I9@, fName=Kyle, lName=/Jhonson/, sex=M, birthDate=Tue Apr 03 00:00:00 EST 1973, deathDate=null, Wife=id=@I8@, fName=Alice, lName=/Mormont/, sex=F, birthDate=Sat Aug 05 00:00:00 EDT 1978, deathDate=null, children=[id=@I10@, fName=Julia, lName=/Johnson/, sex=F, birthDate=Thu Feb 06 00:00:00 EST 1997, deathDate=null]]
+ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I43@, fName=Margaery, lName=/Tyrell/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I45@, fName=Shahad01, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I46@, fName=Shahad02, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I47@, fName=Joffrey, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 2002, deathDate=null, id=@I48@, fName=Shahad03, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I49@, fName=Shahad04, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I50@, fName=Shahad05, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I51@, fName=Shahad06, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null]]
+ID=@F9@, Husband=id=@I20@, fName=Robert, lName=/Baratheon/, sex=M, birthDate=Mon May 02 00:00:00 EDT 1960, deathDate=Thu Jun 09 00:00:00 EDT 2016, Wife=id=@I19@, fName=Cersei, lName=/Lannister/, sex=F, birthDate=Fri Apr 29 00:00:00 EDT 2016, deathDate=null, children=[id=@I40@, fName=Joffrey, lName=/Baratheon/, sex=M, birthDate=Tue Mar 01 00:00:00 EST 2016, deathDate=null]]
+ID=@F11@, Husband=id=@I28@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, Wife=id=@I27@, fName=Nawal Stark, lName=/Stark/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, children=[]]
+ID=@F8@, Husband=id=@I17@, fName=Tywin, lName=/Lannister/, sex=M, birthDate=null, deathDate=null, Wife=id=@I18@, fName=Shahad, lName=/Lannister/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=Sat Jan 01 00:00:00 EST 2005, children=[id=@I16@, fName=Tyrion, lName=/Lannister/, sex=M, birthDate=Sun Jan 02 00:00:00 EST 2005, deathDate=Sun Jan 02 00:00:00 EST 2000, id=@I19@, fName=Cersei, lName=/Lannister/, sex=F, birthDate=Fri Apr 29 00:00:00 EDT 2016, deathDate=null, id=@I21@, fName=Jamie, lName=/Lannister/, sex=M, birthDate=Sat Apr 30 00:00:00 EDT 2016, deathDate=null, id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null]]
+ID=@F10@, Husband=id=@I22@, fName=	Bran, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EST 1899, deathDate=Wed Jun 06 00:00:00 EDT 1990, Wife=id=@I23@, fName=Emilia, lName=/Stark/, sex=F, birthDate=Wed May 02 00:00:00 EST 1900, deathDate=Thu Jun 06 00:00:00 EDT 1991, children=[id=@I24@, fName=Malia Stark, lName=/Stark/, sex=F, birthDate=Sat May 02 00:00:00 EDT 1998, deathDate=null, id=@I25@, fName=Natasha Stark, lName=/Stark/, sex=F, birthDate=Mon Mar 26 00:00:00 EST 2001, deathDate=null, id=@I26@, fName=John Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 2002, deathDate=null, id=@I27@, fName=Nawal Stark, lName=/Stark/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, id=@I28@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, id=@I29@, fName=Hend Stark, lName=/Stark/, sex=F, birthDate=Fri May 02 00:00:00 EDT 2003, deathDate=null, id=@I30@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EDT 1989, deathDate=null, id=@I31@, fName=James Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 1990, deathDate=null, id=@I32@, fName=Sarah Stark, lName=/Stark/, sex=F, birthDate=Mon Apr 06 00:00:00 EDT 1992, deathDate=null, id=@I33@, fName=Martha Stark, lName=/Stark/, sex=F, birthDate=Sun May 02 00:00:00 EDT 2010, deathDate=null, id=@I34@, fName=Marry Stark, lName=/Stark/, sex=F, birthDate=Fri Mar 25 00:00:00 EDT 2016, deathDate=null, id=@I35@, fName=Henry Stark, lName=/Stark/, sex=M, birthDate=Mon Mar 28 00:00:00 EDT 2016, deathDate=null, id=@I36@, fName=Caroline Stark, lName=/Stark/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2006, deathDate=null, id=@I37@, fName=David Stark, lName=/Stark/, sex=M, birthDate=Mon May 02 00:00:00 EDT 2005, deathDate=null, id=@I38@, fName=Julia Stark, lName=/Stark/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2000, deathDate=null, id=@I39@, fName=Alexander Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 2012, deathDate=null]]
+ID=@F5@, Husband=id=@I6@, fName=Ruby, lName=/Williams/, sex=F, birthDate=Mon Mar 04 00:00:00 EST 1940, deathDate=null, Wife=id=@I7@, fName=Jacob, lName=/Mormont/, sex=F, birthDate=Tue Dec 05 00:00:00 EST 1939, deathDate=null, children=[id=@I8@, fName=Alice, lName=/Mormont/, sex=F, birthDate=Sat Aug 05 00:00:00 EDT 1978, deathDate=null]]
+ID=@F4@, Husband=id=@I12@, fName=Fester, lName=/Greyjoy/, sex=M, birthDate=Sun Jan 01 00:00:00 EST 1950, deathDate=null, Wife=id=@I13@, fName=MarySara, lName=/Greyjoy/, sex=M, birthDate=Mon Jan 02 00:00:00 EST 1950, deathDate=null, children=[id=@I4@, fName=Sara, lName=/Greyjoy/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, id=@I14@, fName=Sally, lName=/Greyjoy/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=Tue Jan 03 00:00:00 EST 1978, id=@I15@, fName=Samantha, lName=/Greyjoy/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null]]
+ID=@F1@, Husband=Dates (birth, death) should not be after the current date, Wife=id=@I4@, fName=Sara, lName=/Greyjoy/, sex=F, birthDate=Mon Jun 08 00:00:00 EDT 1964, deathDate=null, children=[id=@I1@, fName=Alex, lName=/Targaryen/, sex=M, birthDate=Sun Mar 02 00:00:00 EST 1986, deathDate=Thu Mar 24 00:00:00 EDT 2016]]
+ID=@F3@, Husband=id=@I6@, fName=Ruby, lName=/Williams/, sex=F, birthDate=Mon Mar 04 00:00:00 EST 1940, deathDate=null, Wife=id=@I5@, fName=Ethan, lName=/Targaryen/, sex=F, birthDate=Wed Apr 01 00:00:00 EST 1500, deathDate=Sun Jul 09 00:00:00 EDT 1972, children=[Dates (birth, death) should not be after the current date]]
+ID=@F13@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I42@, fName=Sansa, lName=/Stark/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I44@, fName=Arya, lName=/Lannister/, sex=F, birthDate=Sat Jan 01 00:00:00 EST 2000, deathDate=null]]
+ID=@F7@, Husband=id=@I16@, fName=Tyrion, lName=/Lannister/, sex=M, birthDate=Sun Jan 02 00:00:00 EST 2005, deathDate=Sun Jan 02 00:00:00 EST 2000, Wife=id=@I15@, fName=Samantha, lName=/Greyjoy/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null, children=[]]
+ID=@F2@, Husband=Dates (birth, death) should not be after the current date, Wife=id=@I3@, fName=Jessica, lName=/Baelish/, sex=F, birthDate=Fri Oct 07 00:00:00 EDT 1966, deathDate=null, children=[id=@I11@, fName=Mike, lName=/Targaryen/, sex=M, birthDate=Sun Feb 06 00:00:00 EST 1994, deathDate=null]]
+
+--------------US30-List of Living Married-------------
+@I9@:  Kyle/Jhonson/
+@I8@:  Alice/Mormont/
+@I41@:  Tommen/Lannister/
+@I43@:  Margaery/Tyrell/
+@I19@:  Cersei/Lannister/
+@I28@:  Adam Stark/Stark/
+@I27@:  Nawal Stark/Stark/
+@I17@:  Tywin/Lannister/
+@I6@:  Ruby/Williams/
+@I7@:  Jacob/Mormont/
+@I12@:  Fester/Greyjoy/
+@I13@:  MarySara/Greyjoy/
+@I2@:  Jhon/Targaryen/
+@I4@:  Sara/Greyjoy/
+@I42@:  Sansa/Stark/
+@I15@:  Samantha/Greyjoy/
+@I3@:  Jessica/Baelish/
+
+--------------US2-List of person birth bef merriage-------------
+Name : Shahad06
+
+--------------US3-List of birth bef Death-------------
+first Name : Emilia
+first Name : Alex
+first Name : Ethan
+first Name : 	Bran
+first Name : Robert
+first Name : Shahad
