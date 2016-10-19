@@ -225,6 +225,48 @@ public class GedComParser {
 				}
 			}
 		}
+
+		
+		
+		// US2 birthbefmerriage, Owner: Pinkal
+
+				public static void us2(Map<String, Person> p) {
+					List<String> list2 = new ArrayList<String>();
+						   String birthbefmerriage ;
+					System.out.println("\n--------------US2-List of person birth bef merriage-------------");
+										
+					for (String key : p.keySet()) {
+						for(NuptialInfo nuplist : p.get(key).getNuptials()){
+							if(nuplist.getMarriageDate() != null && p.get(key).getBirthDate() != null && nuplist.getMarriageDate().before(p.get(key).getBirthDate())){
+								birthbefmerriage="Name : " + p.get(key).getfName();
+								if (!(list2.contains(birthbefmerriage))){
+									 list2.add(birthbefmerriage);
+									System.out.println(birthbefmerriage);
+									}
+							}
+						}		
+					}
+					 
+				}
+				
+				// US3 birthbefDeath, Owner: Pinkal
+
+				public static void us3(Map<String, Person> p) {
+					List<String> list3 = new ArrayList<String>();
+						   String birthbefDeath ;
+					System.out.println("\n--------------US3-List of birth bef Death-------------");
+										
+					for (String key : p.keySet()) {				
+							if(p.get(key).getBirthDate() != null && p.get(key).getDeathDate() != null && p.get(key).getBirthDate().before(p.get(key).getDeathDate())){
+								birthbefDeath="first Name : " + p.get(key).getfName();
+								if (!(list3.contains(birthbefDeath))){
+									 list3.add(birthbefDeath);
+									System.out.println(birthbefDeath);
+									}
+							}		
+					}
+					 
+				}
 	// US33 List orphans, Owner: Shahad
 
 				public static void US33ListOrphans (Map<String, Family> f) {
