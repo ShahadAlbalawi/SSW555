@@ -63,7 +63,23 @@ public class Person  {
 	
 	@Override
 	public String toString() {
-		return "id=" + id + ", fName=" + fName + ", lName=" + lName + ", sex=" + sex + ", birthDate="
+
+	 Date dateobj = new Date();
+		
+		//User Story US01 ++
+		 if(this.birthDate != null){
+			 if(this.birthDate.after(dateobj)){
+				return "Dates (birth, death) should not be after the current date";
+			}
+		 }
+		 if(this.deathDate != null){
+			 if(this.deathDate.after(dateobj)){
+				return "Dates (birth, death) should not be after the current date";
+			}
+		 }
+		//User Story US01--
+		
+return "id=" + id + ", fName=" + fName + ", lName=" + lName + ", sex=" + sex + ", birthDate="
 				+ birthDate + ", deathDate=" + deathDate;
 				/*+ ", childOfFamilyId=" + childOfFamilyId + ", nuptials="+ nuptials + "]";*/
 	}
