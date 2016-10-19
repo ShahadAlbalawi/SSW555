@@ -211,7 +211,6 @@ public class GedComParser {
 		public static void US31ListLivingSingle(Map<String, Person> p) {
 		 
 				   LocalDate today = LocalDate.now();
-				   //LocalDate birthday = LocalDate.of(1960, Month.JANUARY, 1);
  
 			System.out.println("\n--------------US31-List of Living single-------------");
 			
