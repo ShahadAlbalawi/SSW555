@@ -146,7 +146,8 @@ public class GedComParser {
 		//------------------------user stories test ----------------------------//
 		US30ListLivingMarried(familyMap);
 		US28OrderSiblingsByAge(familyMap);
-		 US31ListLivingSingle(personMap); 
+		 US31ListLivingSingle(personMap);
+		US33ListOrphans(familyMap);
 	}
 	
 	/*private static Set<String> getEligibleTags() throws Exception {
@@ -224,6 +225,28 @@ public class GedComParser {
 					System.out.println(p.get(key).getlName()+p.get(key).getfName());}
 				}
 			}
-		}
+		}// US33 List orphans, Owner: Shahad
+
+				public static void US33ListOrphans (Map<String, Family> f) {
+					 LocalDate today = LocalDate.now();
+					
+					System.out.println("\n--------------US33-List orphans-------------");
+					
+					for (String key : f.keySet()) {
+						if(f.get(key).getHusband().getDeathDate()!=null && f.get(key).getWife().getDeathDate()!=null)
+						{  f.get(key).getChildren();
+						 for(int i=0;i<f.get(key).getChildren().size();i++)
+						 {
+							 LocalDate birthday = LocalDate.of(f.get(key).getChildren().get(i).getBirthDate().getYear()+1900,f.get(key).getChildren().get(i).getBirthDate().getMonth()+1,f.get(key).getChildren().get(i).getBirthDate().getDate() );
+								Period age = Period.between(birthday,today);
+							 if(age.getYears()<18){
+								 System.out.println(f.get(key).getChildren().get(i).getlName()+f.get(key).getChildren().get(i).getfName());
+							 }
+						 }
+						}
+						
+					}
+					 
+				}
 			 
 		} 
