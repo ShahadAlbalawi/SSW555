@@ -225,7 +225,8 @@ public class GedComParser {
 					System.out.println(p.get(key).getlName()+p.get(key).getfName());}
 				}
 			}
-		}// US33 List orphans, Owner: Shahad
+		}
+	// US33 List orphans, Owner: Shahad
 
 				public static void US33ListOrphans (Map<String, Family> f) {
 					 LocalDate today = LocalDate.now();
