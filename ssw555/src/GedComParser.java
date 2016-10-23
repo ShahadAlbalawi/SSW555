@@ -148,6 +148,9 @@ public class GedComParser {
 		US28OrderSiblingsByAge(familyMap);
 		 US31ListLivingSingle(personMap);
 		US33ListOrphans(familyMap);
+		
+		us16(familyMap);
+		us21(familyMap);
 	}
 	
 	/*private static Set<String> getEligibleTags() throws Exception {
@@ -264,6 +267,59 @@ public class GedComParser {
 									System.out.println(birthbefDeath);
 									}
 							}		
+					}
+					 
+				}
+			// US16 Male last names, Owner: Pinkal
+
+				public static void us16(Map<String, Family> f) {
+					
+					List<String> list16 = new ArrayList<String>();
+					String samemalefamily="" ;
+					System.out.println("\n--------------US16-List of families with same male last name-------------");
+										
+					for (String key : f.keySet()) {
+						String lastname;
+						int flag=0;
+						lastname=f.get(key).getHusband().getlName();
+						 
+						for(Person plist : f.get(key).getChildren() ){
+								if(plist.getlName().equals(lastname) && plist.getSex().equals("M")){
+									samemalefamily="family : " + plist.getlName();
+								}else if(plist.getSex().equals("M")){
+									flag=1;
+								}
+						}
+						
+						if(flag==0){
+							list16.add(samemalefamily);
+							System.out.println(samemalefamily);
+						}
+												
+					}
+					 
+				}
+				
+				// US21 Correct gender for role, Owner: Pinkal
+				
+				public static void us21(Map<String, Family> f) {
+					
+					List<String> list21 = new ArrayList<String>();
+					String samegenderrolefamily="" ;
+					System.out.println("\n--------------US21-List of families with same gender role-------------");
+										
+					for (String key : f.keySet()) {
+						String husbandsex;
+						String wifesex;
+						husbandsex=f.get(key).getHusband().getSex();
+						wifesex=f.get(key).getWife().getSex();
+						
+						if(husbandsex.equals("M") && wifesex.equals("F")){
+							samegenderrolefamily=f.get(key).getHusband().getlName();
+							list21.add(samegenderrolefamily);
+							System.out.println(samegenderrolefamily);
+						}
+																								
 					}
 					 
 				}
