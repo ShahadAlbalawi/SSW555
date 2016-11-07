@@ -148,9 +148,12 @@ public class GedComParser {
 		US28OrderSiblingsByAge(familyMap);
 		 US31ListLivingSingle(personMap);
 		US33ListOrphans(familyMap);
-		
+
 		us16(familyMap);
 		us21(familyMap);
+		
+		US29ListDeceased(personMap);
+		 US36ListRecentDeath(personMap);
 	}
 	
 	/*private static Set<String> getEligibleTags() throws Exception {
@@ -341,6 +344,42 @@ public class GedComParser {
 								 System.out.println(f.get(key).getChildren().get(i).getlName()+f.get(key).getChildren().get(i).getfName());
 							 }
 						 }
+						}
+						
+					}
+					 
+				}
+		// US29 list deceased, Owner: Shahad
+
+				public static void US29ListDeceased(Map<String, Person> p) {
+				 
+		 
+					System.out.println("\n--------------US29-List Deceased-------------");
+					
+					for (String key : p.keySet()) {
+						if(p.get(key).getDeathDate() !=null)
+						{		
+				
+							System.out.println(p.get(key).getlName()+p.get(key).getfName());}
+								}
+				}
+		// US36 List recent death, Owner: Shahad
+
+				public static void US36ListRecentDeath(Map<String, Person> p) {
+					 LocalDate today = LocalDate.now();
+					
+					System.out.println("\n--------------US36-List recent death-------------");
+					
+					for (String key : p.keySet()) {
+						if(p.get(key).getDeathDate() !=null)
+						{		
+						  
+							 LocalDate deathday = LocalDate.of(p.get(key).getDeathDate().getYear()+1900,p.get(key).getDeathDate().getMonth()+1,p.get(key).getDeathDate().getDate() );
+								Period per = Period.between(deathday,today);
+							 if(per.getMonths()==0 && per.getYears()==0 && per.getDays()<= 30){
+								 System.out.println(p.get(key).getlName()+p.get(key).getfName());
+							 }
+						 
 						}
 						
 					}
