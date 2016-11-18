@@ -151,6 +151,9 @@ public class GedComParser {
 
 		us16(familyMap);
 		us21(familyMap);
+		us22(familyMap,personMap);
+		us23(personMap);
+		
 		
 		US29ListDeceased(personMap);
 		 US36ListRecentDeath(personMap);
@@ -326,6 +329,88 @@ public class GedComParser {
 					}
 					 
 				}
+		// US22 families and individual with  unique id , Owner: Pinkal
+				
+				public static void us22(Map<String, Family> f,Map<String, Person> p) {
+					
+					List<String> list22 = new ArrayList<String>();
+					String familieswthsameid;
+					System.out.println("\n--------------US22 --List of families with unique id-------------");
+					
+										
+					for (String key : f.keySet()) {
+						int counter=0;
+						for (String key2 : f.keySet()) {
+							if(f.get(key).getId().equals(f.get(key2).getId()) ){
+								counter++;
+							}
+						}
+						if(counter<2){
+							familieswthsameid=f.get(key).getId();
+							list22.add(familieswthsameid);
+							System.out.println(familieswthsameid);
+						}
+																								
+					}
+					
+					System.out.println("\n--------------US22 --List of Individual with unique id-------------");
+						for (String key : p.keySet()) {
+							int counter=0;
+							for (String key2 :p.keySet()) {
+								if(p.get(key).getId().equals(p.get(key2).getId()) ){
+									counter++;
+									
+								}
+							}
+							if(counter<2){
+								familieswthsameid=p.get(key).getId();
+								list22.add(familieswthsameid);
+								System.out.println(familieswthsameid);
+							}
+																									
+						}
+					
+					 
+				}
+				
+				// US23 No more than one individual with the same name and birth date should appear in a GEDCOM file Owner: Pinkal
+				public static void us23(Map<String, Person> p) {
+					
+					List<String> list23 = new ArrayList<String>();
+					List<String> list24 = new ArrayList<String>();
+					String namemoreone;
+					String bdatemoreone;
+					System.out.println("\n--------------US22 --List of person with same name and birthdate  in gedcom file-------------");
+					
+										
+					for (String key : p.keySet()) {
+						int counter=0;
+						int counter1=0;
+						String name2=null;
+						for (String key2 : p.keySet()) {
+							if(p.get(key).getfName().equals(p.get(key2).getfName()) ){
+								counter++;
+							}
+							if(p.get(key).getBirthDate()!= null && p.get(key2).getBirthDate() != null && p.get(key).getBirthDate().equals(p.get(key2).getBirthDate()) ){
+								name2=p.get(key2).getfName();
+								counter1++;
+							}
+						}
+						if(counter>1){
+							namemoreone="Name more than once :" + p.get(key).getfName();
+							list23.add(namemoreone);
+							System.out.println(namemoreone);
+						}
+						if(counter1>1){
+							bdatemoreone=p.get(key).getfName()  + "'s Birthdate " + p.get(key).getBirthDate() + " match with : "  +  name2;
+							list24.add(bdatemoreone);
+							System.out.println(bdatemoreone);
+						}
+																								
+					}
+					 
+				}
+				
 	// US33 List orphans, Owner: Shahad
 
 				public static void US33ListOrphans (Map<String, Family> f) {
