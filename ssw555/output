@@ -205,3 +205,87 @@ family : /Lannister/
 
 --------------US36-List recent death-------------
 /Baratheon/Robert
+--------------US22 --List of families with unique id-------------
+@F2@
+@F1@
+@F4@
+@F3@
+@F6@
+@F5@
+@F8@
+@F7@
+@F9@
+@F11@
+@F10@
+@F13@
+@F12@
+
+--------------US22 --List of Individual with unique id-------------
+@I2@
+@I6@
+@I33@
+@I45@
+@I13@
+@I25@
+@I37@
+@I49@
+@I17@
+@I29@
+@I41@
+@I21@
+@I3@
+@I7@
+@I44@
+@I12@
+@I24@
+@I36@
+@I48@
+@I16@
+@I28@
+@I40@
+@I20@
+@I32@
+@I19@
+@I4@
+@I8@
+@I11@
+@I23@
+@I35@
+@I47@
+@I15@
+@I27@
+@I39@
+@I51@
+@I31@
+@I43@
+@I1@
+@I5@
+@I9@
+@I22@
+@I34@
+@I46@
+@I14@
+@I26@
+@I38@
+@I18@
+@I50@
+@I30@
+@I42@
+@I10@
+
+--------------US22 --List of person with same name and birthdate  in gedcom file-------------
+Shahad01's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Shahad04's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Tommen's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
+Shahad03's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Name more than once :Adam Stark
+Name more than once :Joffrey
+Name more than once :Joffrey
+Shahad06's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Margaery's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
+Shahad02's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Sally's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
+Shahad's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
+Shahad05's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
+Name more than once :Adam Stark
+Sansa's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
