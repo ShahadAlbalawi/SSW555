@@ -64,7 +64,7 @@ ID=@F8@, Husband=id=@I17@, fName=Tywin, lName=/Lannister/, sex=M, birthDate=null
 ID=@F7@, Husband=id=@I16@, fName=Tyrion, lName=/Lannister/, sex=M, birthDate=Wed Jan 02 00:00:00 EST 1991, deathDate=Sun Jan 02 00:00:00 EST 2000, Wife=id=@I15@, fName=Samantha, lName=/Greyjoy/, sex=F, birthDate=Thu Jan 01 00:00:00 EST 1987, deathDate=null, children=[]]
 ID=@F9@, Husband=id=@I20@, fName=Robert, lName=/Baratheon/, sex=M, birthDate=Mon May 02 00:00:00 EDT 1960, deathDate=Thu Oct 27 00:00:00 EDT 2016, Wife=id=@I19@, fName=Cersei, lName=/Lannister/, sex=F, birthDate=Fri Apr 29 00:00:00 EDT 2016, deathDate=null, children=[id=@I40@, fName=Joffrey, lName=/Baratheon/, sex=M, birthDate=Tue Mar 01 00:00:00 EST 2016, deathDate=null]]
 ID=@F11@, Husband=id=@I28@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, Wife=id=@I27@, fName=Nawal Stark, lName=/Stark/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, children=[]]
-ID=@F10@, Husband=id=@I22@, fName=	Bran, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EST 1899, deathDate=Wed Jun 06 00:00:00 EDT 1990, Wife=id=@I23@, fName=Emilia, lName=/Stark/, sex=F, birthDate=Wed May 02 00:00:00 EST 1900, deathDate=Thu Jun 06 00:00:00 EDT 1991, children=[id=@I24@, fName=Malia Stark, lName=/Stark/, sex=F, birthDate=Sat May 02 00:00:00 EDT 1998, deathDate=null, id=@I25@, fName=Natasha Stark, lName=/Stark/, sex=F, birthDate=Mon Mar 26 00:00:00 EST 2001, deathDate=null, id=@I26@, fName=John Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 2002, deathDate=null, id=@I27@, fName=Nawal Stark, lName=/Stark/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, id=@I28@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, id=@I29@, fName=Hend Stark, lName=/Stark/, sex=F, birthDate=Fri May 02 00:00:00 EDT 2003, deathDate=null, id=@I30@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EDT 1989, deathDate=null, id=@I31@, fName=James Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 1990, deathDate=null, id=@I32@, fName=Sarah Stark, lName=/Stark/, sex=F, birthDate=Mon Apr 06 00:00:00 EDT 1992, deathDate=null, id=@I33@, fName=Martha Stark, lName=/Stark/, sex=F, birthDate=Sun May 02 00:00:00 EDT 2010, deathDate=null, id=@I34@, fName=Marry Stark, lName=/Stark/, sex=F, birthDate=Fri Mar 25 00:00:00 EDT 2016, deathDate=null, id=@I35@, fName=Henry Stark, lName=/Stark/, sex=M, birthDate=Mon Mar 28 00:00:00 EDT 2016, deathDate=null, id=@I36@, fName=Caroline Stark, lName=/Stark/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2006, deathDate=null, id=@I37@, fName=David Stark, lName=/Stark/, sex=M, birthDate=Mon May 02 00:00:00 EDT 2005, deathDate=null, id=@I38@, fName=Julia Stark, lName=/Stark/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2000, deathDate=null, id=@I39@, fName=Alexander Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 2012, deathDate=null]]
+ID=@F10@, Husband=id=@I22@, fName=	Bran, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EST 1899, deathDate=Wed Jun 06 00:00:00 EDT 1990, Wife=id=@I23@, fName=Emilia, lName=/Stark/, sex=F, birthDate=Wed May 02 00:00:00 EST 1900, deathDate=Thu Jun 06 00:00:00 EDT 1991, children=[id=@I24@, fName=Malia Stark, lName=/Stark/, sex=F, birthDate=Sat May 02 00:00:00 EDT 1998, deathDate=null, id=@I25@, fName=Natasha Stark, lName=/Stark/, sex=F, birthDate=Mon Mar 26 00:00:00 EST 2001, deathDate=null, id=@I26@, fName=John Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 2002, deathDate=null, id=@I27@, fName=Nawal Stark, lName=/Stark/, sex=F, birthDate=Wed Apr 06 00:00:00 EDT 2016, deathDate=null, id=@I28@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Thu May 02 00:00:00 EDT 1991, deathDate=null, id=@I29@, fName=Hend Stark, lName=/Stark/, sex=F, birthDate=Tue Dec 02 00:00:00 EST 2003, deathDate=null, id=@I30@, fName=Adam Stark, lName=/Stark/, sex=M, birthDate=Tue May 02 00:00:00 EDT 1989, deathDate=null, id=@I31@, fName=James Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 1990, deathDate=null, id=@I32@, fName=Sarah Stark, lName=/Stark/, sex=F, birthDate=Mon Apr 06 00:00:00 EDT 1992, deathDate=null, id=@I33@, fName=Martha Stark, lName=/Stark/, sex=F, birthDate=Sun May 02 00:00:00 EDT 2010, deathDate=null, id=@I34@, fName=Marry Stark, lName=/Stark/, sex=F, birthDate=Fri Mar 25 00:00:00 EDT 2016, deathDate=null, id=@I35@, fName=Henry Stark, lName=/Stark/, sex=M, birthDate=Mon Mar 28 00:00:00 EDT 2016, deathDate=null, id=@I36@, fName=Caroline Stark, lName=/Stark/, sex=F, birthDate=Sun Nov 27 00:00:00 EST 2016, deathDate=null, id=@I37@, fName=David Stark, lName=/Stark/, sex=M, birthDate=Mon May 02 00:00:00 EDT 2005, deathDate=null, id=@I38@, fName=Julia Stark, lName=/Stark/, sex=F, birthDate=Tue May 02 00:00:00 EDT 2000, deathDate=null, id=@I39@, fName=Alexander Stark, lName=/Stark/, sex=M, birthDate=Wed May 02 00:00:00 EDT 2012, deathDate=null]]
 ID=@F13@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I42@, fName=Sansa, lName=/Stark/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I44@, fName=Arya, lName=/Lannister/, sex=F, birthDate=Sat Jan 01 00:00:00 EST 2000, deathDate=null]]
 ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, Wife=id=@I43@, fName=Margaery, lName=/Tyrell/, sex=F, birthDate=Tue Jan 01 00:00:00 EST 1980, deathDate=null, children=[id=@I45@, fName=Shahad01, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I46@, fName=Shahad02, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I47@, fName=Joffrey, lName=/Lannister/, sex=M, birthDate=Tue Jan 01 00:00:00 EST 2002, deathDate=null, id=@I48@, fName=Shahad03, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I49@, fName=Shahad04, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I50@, fName=Shahad05, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null, id=@I51@, fName=Shahad06, lName=/Lannister/, sex=F, birthDate=Tue Jan 02 00:00:00 EST 2001, deathDate=null]]
 
@@ -131,14 +131,14 @@ ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tu
 /Stark/Julia Stark date of birth:  May 02, 2000 
 /Stark/Natasha Stark date of birth:  March 26, 2001 
 /Stark/John Stark date of birth:  May 02, 2002 
-/Stark/Hend Stark date of birth:  May 02, 2003 
+/Stark/Hend Stark date of birth:  December 02, 2003 
 /Stark/David Stark date of birth:  May 02, 2005 
-/Stark/Caroline Stark date of birth:  May 02, 2006 
 /Stark/Martha Stark date of birth:  May 02, 2010 
 /Stark/Alexander Stark date of birth:  May 02, 2012 
 /Stark/Marry Stark date of birth:  March 25, 2016 
 /Stark/Henry Stark date of birth:  March 28, 2016 
 /Stark/Nawal Stark date of birth:  April 06, 2016 
+/Stark/Caroline Stark date of birth:  November 27, 2016 
 
  children of family :@F13@
 /Lannister/Arya date of birth:  January 01, 2000 
@@ -161,12 +161,12 @@ ID=@F12@, Husband=id=@I41@, fName=Tommen, lName=/Lannister/, sex=M, birthDate=Tu
 /Stark/John Stark
 /Stark/Hend Stark
 /Stark/David Stark
-/Stark/Caroline Stark
 /Stark/Martha Stark
 /Stark/Alexander Stark
 /Stark/Marry Stark
 /Stark/Henry Stark
 /Stark/Nawal Stark
+/Stark/Caroline Stark
 
 --------------US16-List of families with same male last name-------------
 family : /Targaryen/
@@ -204,7 +204,7 @@ family : /Lannister/
 /Lannister/Shahad
 
 --------------US36-List recent death-------------
-/Baratheon/Robert
+
 --------------US22 --List of families with unique id-------------
 @F2@
 @F1@
@@ -273,7 +273,7 @@ family : /Lannister/
 @I42@
 @I10@
 
---------------US22 --List of person with same name and birthdate  in gedcom file-------------
+--------------US23 --List of person with same name and birthdate  in gedcom file-------------
 Shahad01's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
 Shahad04's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
 Tommen's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
@@ -289,3 +289,10 @@ Shahad's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
 Shahad05's Birthdate Tue Jan 02 00:00:00 EST 2001 match with : Shahad05
 Name more than once :Adam Stark
 Sansa's Birthdate Tue Jan 01 00:00:00 EST 1980 match with : Sansa
+
+--------------US35-List recent births-------------
+/Stark/Caroline StarkBirthday date: Sun Nov 27 00:00:00 EST 2016
+
+--------------US38-List upcoming birthdays-------------
+/Stark/Hend Stark, Birthday date: Tue Dec 02 00:00:00 EST 2003
+/Mormont/Jacob, Birthday date: Tue Dec 05 00:00:00 EST 1939
