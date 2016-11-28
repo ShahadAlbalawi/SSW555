@@ -151,12 +151,14 @@ public class GedComParser {
 
 		us16(familyMap);
 		us21(familyMap);
-		us22(familyMap,personMap);
-		us23(personMap);
-		
-		
 		US29ListDeceased(personMap);
 		 US36ListRecentDeath(personMap);
+		 
+			us22(familyMap,personMap);
+			us23(personMap);
+			US35ListrecentBirths(personMap);
+			US38ListUpcomingBirthdays(personMap);
+			
 	}
 	
 	/*private static Set<String> getEligibleTags() throws Exception {
@@ -380,7 +382,7 @@ public class GedComParser {
 					List<String> list24 = new ArrayList<String>();
 					String namemoreone;
 					String bdatemoreone;
-					System.out.println("\n--------------US22 --List of person with same name and birthdate  in gedcom file-------------");
+					System.out.println("\n--------------US23 --List of person with same name and birthdate  in gedcom file-------------");
 					
 										
 					for (String key : p.keySet()) {
@@ -463,6 +465,52 @@ public class GedComParser {
 								Period per = Period.between(deathday,today);
 							 if(per.getMonths()==0 && per.getYears()==0 && per.getDays()<= 30){
 								 System.out.println(p.get(key).getlName()+p.get(key).getfName());
+							 }
+						 
+						}
+						
+					}
+					 
+				}
+				// US35 List recent births, Owner: Shahad
+
+				public static void US35ListrecentBirths(Map<String, Person> p) {
+					 LocalDate today = LocalDate.now();
+					
+					System.out.println("\n--------------US35-List recent births-------------");
+					
+					for (String key : p.keySet()) {
+						if(p.get(key).getBirthDate() !=null)
+						{		
+						  
+							 LocalDate birthday = LocalDate.of(p.get(key).getBirthDate().getYear()+1900,p.get(key).getBirthDate().getMonth()+1,p.get(key).getBirthDate().getDate() );
+								Period per = Period.between(birthday,today);
+							 if(per.getMonths()==0 && per.getYears()==0 && per.getDays()<= 30){
+								 System.out.println(p.get(key).getlName()+p.get(key).getfName() + "Birthday date: "+p.get(key).getBirthDate());
+							 }
+						 
+						}
+						
+					}
+					 
+				}
+			 
+				// US38 List upcoming birthdays, Owner: Shahad
+
+				public static void US38ListUpcomingBirthdays(Map<String, Person> p) {
+					 LocalDate today = LocalDate.now();
+					
+					System.out.println("\n--------------US38-List upcoming birthdays-------------");
+					
+					for (String key : p.keySet()) {
+						if(p.get(key).getDeathDate() ==null &&p.get(key).getBirthDate()!=null )
+						{		
+						  
+							 LocalDate birthday = LocalDate.of(today.getYear(),p.get(key).getBirthDate().getMonth()+1,p.get(key).getBirthDate().getDate() );
+								Period per = Period.between(today,birthday);
+							 if(per.getMonths()== 0 && per.getDays()<= 30 &&  per.getDays()>0 ||per.getMonths()==-11){
+								 System.out.println(p.get(key).getlName()+p.get(key).getfName()+", Birthday date: "+p.get(key).getBirthDate());
+								
 							 }
 						 
 						}
